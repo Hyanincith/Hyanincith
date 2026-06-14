@@ -2,15 +2,14 @@ name: GitHub Metrics
 
 on:
   schedule:
-    - cron: "0 5 * * *"  
-  workflow_dispatch:        # lets you trigger it manually too
+    - cron: "0 5 * * *"
+  workflow_dispatch:
 
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
 
-      # --- Mildly interesting facts ---
       - name: Mildly interesting facts
         uses: lowlighter/metrics@v3.34
         with:
@@ -20,9 +19,10 @@ jobs:
           plugin_habits: yes
           plugin_habits_facts: yes
           plugin_habits_charts: no
-          config_timezone: America/New_York   # change to your timezone!
+          plugin_habits_from: 10
+          plugin_habits_days: 30
+          config_timezone: America/New_York
 
-      # --- Recent activity charts ---
       - name: Recent activity charts
         uses: lowlighter/metrics@v3.34
         with:
@@ -32,4 +32,6 @@ jobs:
           plugin_habits: yes
           plugin_habits_facts: no
           plugin_habits_charts: yes
+          plugin_habits_from: 10
+          plugin_habits_days: 30
           config_timezone: America/New_York
