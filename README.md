@@ -1,10 +1,7 @@
 ## Hi there 👋
 
-## 📊 GitHub Metrics
-
 ![Metrics](./metrics.svg)
 
-## 💡 Coding Habits
 
 ![Mildly Interesting Facts](./metrics.plugin.habits.facts.svg)
 ![Activity Charts](./metrics.plugin.habits.charts.svg)
