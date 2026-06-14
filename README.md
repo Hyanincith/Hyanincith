@@ -1,5 +1,7 @@
 ![Header](./asset/Header.PNG)
-## Hi there 👋
+## Hi :D 👋
+
+I'm Christy, a CS + AMS student at Stony Brook University!
 
 ![Metrics](./metrics.svg)
 
