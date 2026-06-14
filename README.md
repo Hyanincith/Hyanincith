@@ -1,7 +1,13 @@
 ## Hi there 👋
 
+## 📊 GitHub Metrics
+
 ![Metrics](./metrics.svg)
 
+## 💡 Coding Habits
+
+![Mildly Interesting Facts](./metrics.plugin.habits.facts.svg)
+![Activity Charts](./metrics.plugin.habits.charts.svg)
 
 <!--
 **Hyanincith/Hyanincith** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
